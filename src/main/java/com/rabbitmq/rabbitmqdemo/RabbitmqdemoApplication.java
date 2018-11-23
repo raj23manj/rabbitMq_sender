@@ -23,6 +23,6 @@ public class RabbitmqdemoApplication implements CommandLineRunner {
         simpleMessage.setName("FirstMessage");
         simpleMessage.setDescription("simpleDescription");
 
-        rabbitTemplate.convertAndSend("TextExchange", "testRouting", simpleMessage);
+        rabbitTemplate.convertAndSend("TextExchange23", "testRouting23", simpleMessage);
     }
 }
